@@ -1,0 +1,28 @@
+/* make sure that the parent element with classname todoListMain has always a width that cover all the screen  */
+.todoListMain {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.earth, .mars {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
